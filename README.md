@@ -57,7 +57,7 @@ AquaShield AI evaluates three critical real-time parameters against World Health
 * **Network:** Algorand Testnet
 * **Asset:** Testnet USDC
 * **Facilitator:** GoPlausible x402 Facilitator
-* **Verified Account Explorer Link:** https://lora.algokit.io/testnet/account/YGPR3HDZOJK6UHSS4WUVH7CCBXEVNX3KDXCHX6IAPDNIDXBDFJDS6W3ZM
+* **Verified Account Explorer Link:** https://lora.algokit.io/testnet/transaction/Z6YRYT7WUFCNQ5JKCWTCZSV5JMQDDI46VZKMN3VSDR6SNQZFICVA
 
 ---
 
