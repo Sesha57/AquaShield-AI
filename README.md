@@ -79,7 +79,7 @@ AquaShield AI evaluates three critical real-time parameters against World Health
 ### 2. Backend Setup
 * `cd x402-demo-server`
 * `npm install`
-* `npm run dev` (Runs at http://localhost:4021)
+* `npm run dev` (Health check at http://localhost:4021/health)
 
 ### 3. Frontend Setup
 * `cd X402-Usecase/projects/X402-Usecase`
