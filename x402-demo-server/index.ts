@@ -36,6 +36,7 @@ import {
   handleCreatorEarningsRequest,
 } from './handlers/creator-content';
 import { handleMemeGenerateRequest, handleMemeStylesRequest } from './handlers/meme-generator';
+import { handleOutbreakPredictionRequest } from './handlers/outbreak-prediction';
 
 // Import endpoint configuration
 import createPaymentConfig, { EndpointConfig } from './endpoints.config';
@@ -159,6 +160,9 @@ app.get('/weather', handleWeatherRequest);
 
 // Meme Generator - Pay $0.1 USDC (Payment Protected)
 app.post('/meme-generate', handleMemeGenerateRequest);
+
+// AquaShield AI - Pay $0.01 USDC (Payment Protected)
+app.post('/api/outbreak-prediction', handleOutbreakPredictionRequest);
 
 
 // Example 2: Analytics - Uncomment to enable

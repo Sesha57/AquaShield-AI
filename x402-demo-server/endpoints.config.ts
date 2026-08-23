@@ -175,6 +175,36 @@ export function createPaymentConfig(avmAddress: string): EndpointConfig {
     //   ],
     //   description: 'Premium data access - Pay as you go',
     // },
+    /**
+     * AQUASHIELD AI - Outbreak Prediction
+     * Agentic Water-Borne Disease Early Warning System
+     * Users pay 0.01 USDC for a diagnostic run
+     */
+    'POST /api/outbreak-prediction': {
+      accepts: [
+        {
+          scheme: 'exact',
+          price: '$0.01',
+          network: ALGORAND_TESTNET_CAIP2,
+          payTo: avmAddress,
+          extra: { asset: Number(USDC_TESTNET_ASA_ID) },
+        },
+      ],
+      description: 'Run Agentic Outbreak Diagnostic - Pay $0.01 USDC',
+      extensions: declareDiscoveryExtension({
+        output: {
+          example: {
+            choleraRiskScore: 0.85,
+            waterTurbidity: 'High (45 NTU)',
+            pHLevel: 8.2,
+            coliformBacteriaCount: '1500 CFU/100mL',
+            automatedCountermeasures: ['Deploying mobile purification units', 'Alerting municipal health workers'],
+            timestamp: '2026-08-23T03:30:00.000Z',
+            paidVia: 'x402 / USDC Algorand Testnet',
+          },
+        },
+      }),
+    },
   };
 }
 
