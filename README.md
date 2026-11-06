@@ -77,7 +77,7 @@ AquaShield AI evaluates three critical real-time parameters against World Health
 
 ---
 
-## 🚀 Quick Start Guide
+## 🚀 Developer Start Guide
 
 ### 1. Prerequisites
 * Node.js v18+
