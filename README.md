@@ -5,6 +5,13 @@ AquaShield AI is an autonomous municipal intelligence platform that continuously
 
 ---
 
+## 🌐 Live Deployment
+
+- **Frontend:** [AquaShield AI – Live Demo](https://aqua-shield-ai-eight.vercel.app)
+- **Backend Health Check:** [Railway API – Health Status](https://aquashield-ai-production.up.railway.app/health)
+
+---
+
 ## 📌 Problem & Motivation
 
 * **Lab Delay Bottlenecks:** Traditional bacterial culture and agar plate testing take 24–48 hours to confirm pathogen spikes (such as Vibrio cholerae or Escherichia coli). By the time contamination is reported, outbreaks have already spread through municipal water grids.
